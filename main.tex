@@ -1,94 +1,34 @@
-\documentclass[pdf, 9pt, unicode, aspectratio=169]{beamer}
+\documentclass[a4paper,11pt]{article}
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[english,russian]{babel}
-
-\usepackage{graphicx}
-
-\usepackage{times}
-\usepackage{mathptmx}
-\usepackage{mathrsfs}
-\usepackage{xparse}
-\usepackage{xcolor}
-\usepackage{tikz}
-\usetikzlibrary{arrows.meta}
-\usepackage{wrapfig,lipsum,booktabs}
-\usetikzlibrary{3d}
-
-\def\rmdefault{ftm}
-\def\sfdefault{ftx}
-\def\ttdefault{fer}
-\DeclareMathAlphabet{\mathbf}{OT1}{ftm}{bx}{it} % bx/it or bx/m
-
-\usepackage{amsfonts}
-\usepackage{amsbsy}
-\usepackage{amssymb}
+\usepackage{csquotes}
 \usepackage{amsthm}
 \usepackage{amsmath}
-
+\usepackage{float}
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{angles, arrows.meta, decorations.pathmorphing}
+\usetikzlibrary{fixedpointarithmetic}
+\usetikzlibrary{patterns}
+\usepackage{fp}
+\usepackage{adjustbox}
+\usepackage{pgfplots} % Подключаем пакет
+\pgfplotsset{compat=1.18} % Р
 \usepackage{wrapfig}
+\usepackage[english,russian]{babel}
+\usepackage{booktabs} % Для красивых таблиц
+\usepackage{multirow} % Для объединения строк
+\usepackage{adjustbox}
+\usepackage{soul} % Основной пакет для подчеркивания
+\usepackage{xcolor}
+\usepackage{stackengine}
+\usepackage{ulem}
+\setul{0.5ex}{0.3ex}
+\setulcolor{gray}
+\usepackage{dashrule}
 
-%\hypersetup{colorlinks=true}
-\def\dfrac#1#2{\displaystyle{\frac{#1}{#2}}}
-\def\Div{\mathop{\rm div}\nolimits}
-\def\const{\mathop{\rm const}\nolimits}
-\def\N{{\bf N}}
-\def\q{{\bf q}}
-\def\U{{\bf U}}
-\def\F{{\bf F}}
-\def\p{{\bf p}}
-\def\eps{\varepsilon}
-%\def\Bold#1{{\em #1}}
-\def\Bold#1{{\bfseries #1}}
-\def\Emph#1{{\bfseries #1}}
-\def\Blue#1{\textcolor{blue}{#1}}
-\def\Red#1{\textcolor{green}{#1}}
-\def\dist{\mathop{\rm dist}\nolimits}
-\newcommand{\dpart}[2]{\dfrac{\partial #1}{\partial #2}}
-
-\usefonttheme[onlymath]{serif}
-
-\def\FullName{Овчинников Георгий\\Борисенков Никита\\Кухаренко Константин}
-\def\ShortName{Кухаренко К.А.}
-\def\Group{510}
-\def\PaperType{Курсовая работа}
-
-\setbeamertemplate{footline}{%
-	\begin{beamercolorbox}{section in head/foot}
-		\vskip1pt{\ }\hskip1pt%
-		\ShortName\hfill{}\PaperType%
-		\hskip1pt{\ }\vskip1pt%
-	\end{beamercolorbox}%
-}
-
-\setbeamertemplate{navigation symbols}{}
-
-\setbeamersize{text margin left=0.5cm, text margin right=0.25cm}
-
-\setbeamerfont{institute}{size=\normalsize}
-
-\setbeamercolor{bluetext_color}{fg=blue}
-\newcommand{\bluetext}[1]{{\usebeamercolor[fg]{bluetext_color}#1}}
-
-\title{Транснациональные корпорации}
-
-\author[\FullName]{\FullName \newline \newline студенты \Group{} группы}
-
-\date{     Москва,     2025 г. }
 
 \begin{document}
-	
-	\begin{frame}[plain]
-		\titlepage
-	\end{frame}
-	
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}\frametitle{Введение}
-	
-
-	
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	
+\center{Транснациональные корпорации}
 \end{document}
